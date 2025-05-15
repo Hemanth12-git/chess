@@ -137,12 +137,12 @@ export class Game {
           whitePlayer: {
             name: WhitePlayer?.name,
             id: this.player1UserId,
-            isGuest: WhitePlayer?.provider === AuthProvider.GUEST,
+            isGuest: WhitePlayer?.provider === 'GUEST',
           },
           blackPlayer: {
             name: BlackPlayer?.name,
             id: this.player2UserId,
-            isGuest: BlackPlayer?.provider === AuthProvider.GUEST,
+            isGuest: BlackPlayer?.provider === 'GUEST',
           },
           fen: this.board.fen(),
           moves: [],

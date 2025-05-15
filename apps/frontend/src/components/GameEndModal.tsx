@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import WhiteKing from '../../public/wk.png';
-import BlackKing from '../../public/bk.png';
+const whiteKingSrc = '/wk.png';
+const blackKingSrc = '/bk.png';
 import { GameResult, Result } from '@/screens/Game';
 
 interface ModalProps {
@@ -29,7 +29,7 @@ const GameEndModal: React.FC<ModalProps> = ({
     gameResult: Result;
     isWhite: boolean;
   }) => {
-    const imageSrc = isWhite ? WhiteKing : BlackKing;
+    const imageSrc = isWhite ? whiteKingSrc : blackKingSrc;
     const borderColor =
       gameResult === (isWhite ? Result.WHITE_WINS : Result.BLACK_WINS)
         ? 'border-green-400'

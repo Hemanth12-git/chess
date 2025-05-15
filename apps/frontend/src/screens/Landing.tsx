@@ -27,7 +27,7 @@ export const Landing = () => {
           <PlayCard />
         </div>
       </div>
-      <div className="mt-32 bg-bgAuxiliary2 text-textMain w-full px-14 py-14 rounded-[36px]">
+      {/* <div className="mt-32 bg-bgAuxiliary2 text-textMain w-full px-14 py-14 rounded-[36px]">
         <div className="lg:grid grid-cols-[45%,1fr] gap-28">
             <div className="rounded-xl">
                 <img src="https://res.cloudinary.com/dcugqfvvg/image/upload/v1713657312/undraw_questions_re_1fy7_kqjpu3.svg" alt="chess-board" />
@@ -45,7 +45,7 @@ export const Landing = () => {
                 </a>
             </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
