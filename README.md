@@ -2,9 +2,9 @@
 
 ## Glimpses
 
-- ![Login Page](glimpses/Login.png)  
-- ![Home Page](glimpses/Landing.png)  
-- ![Game Page](glimpses/Chess.png)  
+- Login page (glimpses/Login.png)  
+- Home Page(glimpses/Landing.png)  
+- Game Page(glimpses/Chess.png)  
 
 ## Overview
 
